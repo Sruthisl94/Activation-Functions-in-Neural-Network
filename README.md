@@ -21,6 +21,10 @@ The output ranges from -1 to 1
 max(0,x)
 ranges 0 to ∞
 
+### Swish function
+x⋅σ(x)  where σ(x)  is the sigmoid function
+Unlike ReLU (which is piecewise linear), Swish smoothly transitions from negative to positive values.
+
 ## Relu function yields high accuracy
 1. Mitigates Vanishing Gradients
 * Sigmoid and Tanh saturate for large ∣𝑥∣ causing gradients to become very small.
