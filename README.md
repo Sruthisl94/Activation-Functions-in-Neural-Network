@@ -1,6 +1,7 @@
 # Activations-Functions-in-Neural-Network
 
 An activation function is a mathematical function applied to the output of a neuron (i.e., the linear combination of inputs and weights) in a neural network. It introduces non-linearity into the network, enabling it to learn complex relationships in data. Without an activation function, a neural network would behave like a single-layer linear model, regardless of how many layers it has.
+Here Artificial neural network for different activation functions has been build to analyze the mnist dataset to observe how the accuracy of model changes with the activation functions
 ## Differnt types of Activation function
 ### Linear
 A linear function f(x)=x and hence the network can only learn linear patterns
